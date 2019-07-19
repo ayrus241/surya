@@ -1,9 +1,7 @@
 num=input()
-if num in ['a','e','i','o','u']:
-    print("Vowel")
-elif num in ['b','c','d','f','g','h','j','k','l','m','n','p','q','r','s','t','v','w','x','y','z']:
-    print("Consonant")
+if num in ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z']:
+    print("Alphabet")
 else:
-    print("invalid")
+    print("No")
 
     
