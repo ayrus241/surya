@@ -3,4 +3,4 @@ try:
     float(N)
     print("yes")
 except ValueError:
-    print("no")
+    print("No")
