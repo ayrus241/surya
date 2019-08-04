@@ -1,7 +1,7 @@
 a=int(input())
-if pow(a,1/2)%2==0:
+if (a==1):
     print("yes")
-elif (a==1):
+elif pow(a,1/2)%2==0:
     print("yes")
 else:
     print("no")
